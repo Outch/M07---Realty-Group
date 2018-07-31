@@ -1,0 +1,125 @@
+body {
+	color: #A4A09D;
+	font-family: arial, sans-serif;
+	outline: none;
+}
+
+.logo, h1 {
+	display: inline-block;
+	vertical-align: middle;
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+h3 {
+	color: #AAE2E4;
+	margin-bottom: 10px;
+}
+
+nav {
+	border-bottom: 2px solid #2BBCD9;
+}
+
+nav ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+nav > ul > li {
+	display: inline-block;
+}
+
+nav > ul > li > a {
+	display: inline-block;
+	font-weight: bold;
+	padding: 20px 30px;
+	color: #30C6DB;
+}
+
+nav > ul >li > a:hover {
+	color: white;
+	background-color: #2BBCD9;
+}
+
+[class^="menu"] a:hover {
+	font-size: 1.3em;
+}
+
+.dropDownMenu .menu {
+	position: absolute;
+	display: none;
+	background-color: #2BBCD9;
+	left: 0;
+	right: 0;
+}
+
+.dropDownMenu ul li:hover .menu {
+	display: block;
+	color: #AAE2E4;
+}
+
+.menu_left, .menu_right {
+	line-height: 1.8;
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	color: #FFF;
+	padding-bottom: 20px;
+}
+
+nav > ul > li > a[href="https://stallman.org/"]:hover {
+	color: white;
+	background-color: black;
+}
+
+.dropDownMenu .menu_freeman {
+	position: absolute;
+	display: none;
+	background-color: black;
+	left: 0;
+	right: 0;
+}
+
+.dropDownMenu ul li:hover .menu_freeman{
+	display: block;
+	color: #AAE2E4;
+}
+
+li img {
+	width: 200px;
+}
+
+main {
+	width: 70%;
+	margin: auto;
+	line-height: 1.8em;
+}
+
+h2 {
+	margin-top: 40px;
+	color: #30C6DB;
+}
+
+
+footer {
+	margin-top: 60px;
+	background-color: #2CBCD6;
+	color: white;
+	display: block;
+	padding: 25px;
+	text-align: center;
+}
+
+footer img {
+	width: 50px;
+}
+
+footer a {
+	color: #AADCF7;
+}
